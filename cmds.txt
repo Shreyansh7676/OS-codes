@@ -1,0 +1,48 @@
+mkdir- makes a new folder in a directory
+    eg- mkdir haha   //makes a new folder named haha in the directory in which you are currently present
+
+
+pwd- prints your file location or main kaha par hu ya konse folder mein main navigate kar raha hu  
+    
+cd- to move inside a folder or kisi folder ko open kar raha hu
+    eg- cd Desktop //main ab home folder se Desktop folder ke andar aa gaya
+
+cd .. - moves backward or kisi folder ke pichle location par chala gaya
+    eg- /home/Downloads mein main hu already
+    and then I write cd.. in terminal
+    then my pwd is /home 
+
+ls- to know the content inside the folder
+    eg- mera location Downloads hai, toh ls would list all the items stored in that folder
+
+(/) apna root hota hai jo sabse bada parent hota hai system mein, uske paas saara access hota hai   
+
+absolute path- if i am located in a directory named documents and if i have to go to a folder which is present inside the Downloads     folder, then i have to to write cd /Downloads/folder1
+
+relative path- if i am inside the documents folder and if i want to go folder which is inside the documents folder itselves then i would write the cmd cd folder2
+
+sudo- gives access to be a admin of the system to install or update any app or even delete
+
+apt-get: It is used to install, update, upgrade and remove any package.
+    update, upgrade, remove, install
+
+cat- reads the data from a file and gives output as the data of that file  
+    To view a single file "$cat filename"
+    To view multiple files "$cat file1 file2"
+    To view contents of a file preceding with line numbers "$cat -n filename"
+    Create a file "$ cat >newfile"
+    Copy the contents of one file to another file "$cat [filename-whose-contents-is-to-be-copied] > [destination-filename]"
+
+tac- gives the reversed output which is written in the file
+
+echo- used to display line of text/string that are passed as an argument . This is a built in command that is mostly used in shell  scripts and batch files to output status text to the screen or a file.
+    eg: echo 'Hello World'  //would give output as Hello World
+
+rmdir: Use rmdir to delete a directory. But rmdir can only be used to delete an empty directory.
+
+rm: Use the rm command to delete files and directories.  Use "rm -r" to delete just the directory. It deletes both the folder and the files it contains when using only the rm command.
+
+cp — Use the cp command to copy files through the command line. It takes two arguments: The first is the location of the file to be copied, the second is where to copy.
+
+mv- use to move the location of file from one folder to another or to rename the file
+    eg mv file1(old name) file2(new name)
